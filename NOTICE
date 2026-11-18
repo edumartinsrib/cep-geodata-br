@@ -1,26 +1,45 @@
-A base em data/ é derivada do Cadastro Nacional de Endereços para Fins
-Estatísticos (CNEFE), Censo Demográfico 2022, publicado pelo IBGE.
+A base em data/ mistura duas fontes e, por causa da segunda, o conjunto
+é uma base derivada sob a Open Database License (ODbL) 1.0
+(https://opendatacommons.org/licenses/odbl/1.0/).
 
-Os microdados por UF em CSV foram divulgados em 21/05/2024, com o arquivo
-de Rondônia atualizado em 12/06/2024. Os nomes de município vêm da API de
-localidades do IBGE.
+Quem usa ou republica data/ precisa:
 
-Licença dos dados: domínio público / dados abertos do governo federal,
-com citação obrigatória da fonte. O IBGE informou em 08/01/2009
-(atendimento 8171/2009) que os conteúdos do portal são de domínio público
-e que o uso em outras publicações ou portais depende da citação da fonte.
-O FTP do instituto indica que os arquivos disponíveis são públicos.
-A divulgação observa o Decreto nº 8.777/2016 (Política de Dados Abertos
-do Poder Executivo Federal).
+1. Atribuir as duas fontes, e
+2. Oferecer publicamente, sob a mesma ODbL, qualquer base derivada
+   (share-alike).
 
-Citação sugerida:
+O código em cepdb/, nos testes e no gerador está sob a licença MIT
+(arquivo LICENSE). Essa licença não cobre data/ nem sources/cepaberto/.
+
+## IBGE — CNEFE, Censo Demográfico 2022
+
+Microdados por UF em CSV, divulgados em 21/05/2024, com o arquivo de
+Rondônia atualizado em 12/06/2024. Nomes de município: API de localidades
+do IBGE.
+
+Os conteúdos do portal do IBGE são de domínio público, com citação da
+fonte (atendimento 8171/2009, de 08/01/2009). O FTP do instituto informa
+que os arquivos são públicos. A divulgação observa o Decreto nº 8.777/2016.
+
+Citação:
 
     IBGE. Censo Demográfico 2022: Cadastro Nacional de Endereços para Fins
     Estatísticos (CNEFE). Rio de Janeiro: IBGE, 2024.
 
-    Base derivada: cepdb, agregação por CEP com centroide das coordenadas
-    do CNEFE. A coordenada não é produto oficial do IBGE; é calculada
-    por este repositório a partir dos microdados.
+A coordenada não é um produto oficial do IBGE. O centroide por CEP é
+calculado por este repositório a partir dos microdados. Coordenadas
+herdadas por logradouro, bairro ou município também são derivadas aqui.
 
-O código-fonte deste repositório está sob a licença MIT (arquivo LICENSE).
-Essa licença não se estende aos dados.
+## CEP Aberto
+
+Dump postal gerado em 17/11/2026, sem latitude/longitude, versionado em
+sources/cepaberto/cepaberto_2026-11-17.tar.
+
+Licença do dump e da base combinada: ODbL 1.0.
+Atribuição: Mucelli Rezende Oliveira, Eduardo, 2014.
+CEP Aberto, https://www.cepaberto.com/.
+
+Citação:
+
+    Mucelli Rezende Oliveira, Eduardo. CEP Aberto. 2014.
+    https://www.cepaberto.com/. Dump de 17/11/2026. ODbL 1.0.

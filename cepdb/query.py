@@ -10,7 +10,20 @@ from pathlib import Path
 
 from cepdb.aggregate import GRID_DEG, haversine_km, normalize_cep
 
-_REQUIRED = ("cep", "logradouro", "bairro", "cidade", "uf", "codigo_ibge", "lat", "lng", "fonte")
+_REQUIRED = (
+    "cep",
+    "logradouro",
+    "complemento",
+    "bairro",
+    "cidade",
+    "uf",
+    "codigo_ibge",
+    "lat",
+    "lng",
+    "precisao",
+    "fonte",
+    "origem",
+)
 
 
 def repo_root() -> Path:

@@ -39,14 +39,26 @@ class DatasetTest(unittest.TestCase):
                 self.assertEqual(len(cep), 8)
                 self.assertTrue(cep.isdigit())
                 self.assertTrue(record_fields_ok(record))
-                self.assertEqual(record["fonte"], "ibge-cnefe-censo2022")
+                self.assertIn(
+                    record["fonte"],
+                    ("ibge-cnefe-censo2022", "cepaberto", "ibge-cnefe-censo2022+cepaberto"),
+                )
+                self.assertIn(record["precisao"], ("cnefe_cep", "logradouro", "bairro", "municipio", None))
                 if record["lat"] is not None:
                     self.assertTrue(valid_coord(record["lat"], record["lng"]))
+                else:
+                    self.assertIsNone(record["precisao"])
             total += len(blob)
             maior = max(maior, path.stat().st_size)
         self.assertEqual(total, self.meta["total_ceps"])
-        self.assertGreater(self.meta["total_ceps"], 800_000)
-        self.assertGreater(self.meta["pct_com_coordenadas"], 95)
+        self.assertGreater(self.meta["total_ceps"], 1_100_000)
+        self.assertGreater(self.meta["pct_com_coordenadas"], 99)
+        self.assertEqual(
+            self.meta["cepaberto"]["ceps_nos_dois"]
+            + self.meta["cepaberto"]["ceps_so_cnefe"]
+            + self.meta["cepaberto"]["ceps_so_cepaberto"],
+            self.meta["total_ceps"],
+        )
         self.assertLess(maior, 45 * 1024 * 1024)
 
     def test_avenida_paulista(self):
@@ -61,28 +73,48 @@ class DatasetTest(unittest.TestCase):
         self.assertLessEqual(record["lat"], -23.53)
         self.assertGreaterEqual(record["lng"], -46.70)
         self.assertLessEqual(record["lng"], -46.62)
+        self.assertEqual(record["precisao"], "cnefe_cep")
+        self.assertEqual(record["origem"]["coordenada"], "cnefe")
+        self.assertIn("612", record["complemento"])
+        self.assertIn("par", fold_key(record["complemento"]))
         self.assertIn(record["nv_geo"], (1, 2))
         perto = self.db.near(record["lat"], record["lng"], radius_km=0.3, limit=1)
         self.assertEqual(perto[0]["cep"], "01310100")
         self.assertEqual(perto[0]["dist_km"], 0.0)
 
-    def test_cep_generico_01001000_nao_e_so_a_praca_da_se(self):
-        """No Correios, 01001-000 é a Praça da Sé. No CNEFE o mesmo CEP foi
-        lançado em milhares de endereços espalhados por São Paulo, então o
-        centroide não é a praça e não há bairro majoritário.
+    def test_cep_generico_01001000_mantem_centroide_do_cnefe(self):
+        """O nome postal vem do CEP Aberto (Praça da Sé). A coordenada
+        continua o centroide do CNEFE, espalhado pela cidade, não a praça.
         """
         record = self.db.require("01001000")
         self.assertEqual(record["cidade"], "São Paulo")
         self.assertEqual(record["uf"], "SP")
         self.assertEqual(record["codigo_ibge"], "3550308")
-        self.assertIsNone(record["logradouro"])
-        self.assertIsNone(record["bairro"])
+        self.assertIn("praca da se", fold_key(record["logradouro"]))
+        self.assertEqual(fold_key(record["bairro"]), "se")
+        self.assertEqual(record["origem"]["logradouro"], "cepaberto")
+        self.assertEqual(record["origem"]["coordenada"], "cnefe")
+        self.assertEqual(record["precisao"], "cnefe_cep")
         self.assertGreater(record["n_enderecos"], 1000)
-        self.assertGreater(record["n_logradouros"], 50)
         self.assertGreaterEqual(record["lat"], -23.70)
         self.assertLessEqual(record["lat"], -23.45)
         self.assertGreaterEqual(record["lng"], -46.80)
         self.assertLessEqual(record["lng"], -46.50)
+
+    def test_cep_so_do_cep_aberto_herda_a_rua(self):
+        record = self.db.require("01310900")
+        self.assertEqual(record["fonte"], "cepaberto")
+        self.assertEqual(record["precisao"], "logradouro")
+        self.assertEqual(record["cidade"], "São Paulo")
+        self.assertEqual(record["uf"], "SP")
+        self.assertEqual(record["codigo_ibge"], "3550308")
+        self.assertIn("paulista", fold_key(record["logradouro"]))
+        self.assertEqual(fold_key(record["bairro"]), "bela vista")
+        self.assertIsNone(record["n_enderecos"])
+        self.assertEqual(record["origem"]["coordenada"], "cnefe_logradouro")
+        paulista = self.db.require("01310100")
+        shift = abs(record["lat"] - paulista["lat"]) + abs(record["lng"] - paulista["lng"])
+        self.assertLess(shift, 0.01)
 
 
 if __name__ == "__main__":

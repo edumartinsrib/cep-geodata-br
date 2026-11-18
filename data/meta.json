@@ -1,10 +1,10 @@
 {
-  "gerado_em": "2026-11-18T01:08:10Z",
+  "gerado_em": "2026-11-18T01:37:49Z",
   "gerador": "cepdb 1.0.0",
-  "total_ceps": 931499,
-  "ceps_com_coordenadas": 931499,
-  "ceps_sem_coordenadas": 0,
-  "pct_com_coordenadas": 100.0,
+  "total_ceps": 1217509,
+  "ceps_com_coordenadas": 1217197,
+  "ceps_sem_coordenadas": 312,
+  "pct_com_coordenadas": 99.9744,
   "ceps_sem_logradouro": 32314,
   "ceps_sem_bairro": 34055,
   "ceps_em_multiplos_municipios": 398,
@@ -21,625 +21,625 @@
   "particoes": [
     {
       "arquivo": "ceps/01.json",
-      "ceps": 1698,
-      "bytes": 431195,
-      "sha256": "82c29b1b9676d96053346f8ddc808aa0437b9970c1488d8608c8751ec62f8d66"
+      "ceps": 3104,
+      "bytes": 1397801,
+      "sha256": "6220e747199902dbb135469eb86045bb35be73d0a63da1c76dc3ff0eb0add320"
     },
     {
       "arquivo": "ceps/02.json",
-      "ceps": 8645,
-      "bytes": 2216356,
-      "sha256": "72317d275a71f17edcea922189ecbf7b799a34e317b2847477f182f6fdc47b57"
+      "ceps": 9982,
+      "bytes": 4688276,
+      "sha256": "9a122617aefe6aba45dd103c17c3e3509adbab78a5a03c732ad5c99db2ab915a"
     },
     {
       "arquivo": "ceps/03.json",
-      "ceps": 8853,
-      "bytes": 2266246,
-      "sha256": "5b8550102a4615cccd063787af5901aecae5b8068358bfef3aac1db00f466463"
+      "ceps": 10096,
+      "bytes": 4710017,
+      "sha256": "ef1e2030888f849505ce8d155554484cae4a86a91846cde3af944d5fc78380a9"
     },
     {
       "arquivo": "ceps/04.json",
-      "ceps": 12283,
-      "bytes": 3151464,
-      "sha256": "38e3ee36b7d7159cf1cd460fe5308bf8a119e7ee147ddea9da63628cf9f1813a"
+      "ceps": 15539,
+      "bytes": 7264947,
+      "sha256": "1719d0674a4ce43f81d1140f6f7e2a6a3469906c56c90f2122b1b521bb454d90"
     },
     {
       "arquivo": "ceps/05.json",
-      "ceps": 8182,
-      "bytes": 2107854,
-      "sha256": "0bf882da2d37025edcae7b8f53dbfccbbcb46cd2ceebe6bf3c045b1b122830b5"
+      "ceps": 10341,
+      "bytes": 4835704,
+      "sha256": "8fd6c485a28cef1ddbabb7ff7e5c23f8641035977342fd11215c7c8602a14fb8"
     },
     {
       "arquivo": "ceps/06.json",
-      "ceps": 15730,
-      "bytes": 4057573,
-      "sha256": "ea7332aa48c822ac2d3cc05ad676b0178f53700257cfdd3fa4cc6fa5d8ee823b"
+      "ceps": 19849,
+      "bytes": 9110859,
+      "sha256": "218e1e01c45f5372c016deb1172bdd2a41346b317acb6b8c3a7aa465932498e0"
     },
     {
       "arquivo": "ceps/07.json",
-      "ceps": 11632,
-      "bytes": 2957870,
-      "sha256": "1505af2fa703e1759e2a87bd9715247d32b44b65cfa712b49fa59e00e09c9145"
+      "ceps": 14981,
+      "bytes": 6956491,
+      "sha256": "399b59cfd440dd0e6bea86e7910b51f9f1d038263f4a9b02304a4f9e8d34f667"
     },
     {
       "arquivo": "ceps/08.json",
-      "ceps": 15206,
-      "bytes": 3944838,
-      "sha256": "4236753f1354c1e968d2c00543cb7472a4088a401fbdf5194c89e3fb3626771b"
+      "ceps": 17858,
+      "bytes": 8399146,
+      "sha256": "a28ae4e272d724f61e610f5e28d4477a462cf78d20d95b9e50daa34dbaed2458"
     },
     {
       "arquivo": "ceps/09.json",
-      "ceps": 12795,
-      "bytes": 3305723,
-      "sha256": "806895f0e865b3ea5e6ac0b25ce4e9fd2e92ace1ab336e42b9171a0633645f97"
+      "ceps": 14500,
+      "bytes": 6722319,
+      "sha256": "f37f116b1926b8f7688ccdf544f84bc73ce380934e8a97cf0658a63eb2043d53"
     },
     {
       "arquivo": "ceps/11.json",
-      "ceps": 12650,
-      "bytes": 3230056,
-      "sha256": "8fc5f8c1ef864b2e0b6519390a6306ad96fa2eae89c7ec408449038d8d90b241"
+      "ceps": 15626,
+      "bytes": 7023557,
+      "sha256": "95c89587381bf975b1dac63f630228de49b7112bf865c1a7a29056fad75734e0"
     },
     {
       "arquivo": "ceps/12.json",
-      "ceps": 19282,
-      "bytes": 5101433,
-      "sha256": "db63200e8cd11bbf7d8e2af7e7a6fb7454d272930a22b8b055c98802fd1b5394"
+      "ceps": 23939,
+      "bytes": 11226570,
+      "sha256": "89127e822c88781d69a208c1e6da27a341b3f0e90c4a47a85dfa34d53ed2237b"
     },
     {
       "arquivo": "ceps/13.json",
-      "ceps": 60814,
-      "bytes": 15873834,
-      "sha256": "739cc6ca9062930569acdf992605f4d31458c221b889e99f9112c386851b7005"
+      "ceps": 75465,
+      "bytes": 35025027,
+      "sha256": "a5985cf4af61d00f96109479b941a1da74b5ce987b280459eb3d5fcacd712f99"
     },
     {
       "arquivo": "ceps/14.json",
-      "ceps": 18056,
-      "bytes": 4767107,
-      "sha256": "7db2d6f704edf99e7bddb039f3880489c095cd42667201b4f4a6a9b4039c06b2"
+      "ceps": 22353,
+      "bytes": 10431216,
+      "sha256": "a66e123d28063088846aec3b7a2622fa728c537432c3f2d05b9ec3a2a53414a8"
     },
     {
       "arquivo": "ceps/15.json",
-      "ceps": 14979,
-      "bytes": 3983235,
-      "sha256": "875260fcc5daae2b565680fac2d3afea466984e3f5a6b39b10ba6340a0a6ea05"
+      "ceps": 18208,
+      "bytes": 8570906,
+      "sha256": "76681ecd4dada53ed5c9b9e34ca8d9826c9b802992101e82b75f99fe878097aa"
     },
     {
       "arquivo": "ceps/16.json",
-      "ceps": 7134,
-      "bytes": 1859038,
-      "sha256": "fb0164b79172c1ba625b1c08430be08238354185c1bb240300f34083890f8dc3"
+      "ceps": 8928,
+      "bytes": 4145985,
+      "sha256": "ef5f02d89f3f78255cfdbb18d13a6afd93b671bf00bb7070e7b1610ca9e27712"
     },
     {
       "arquivo": "ceps/17.json",
-      "ceps": 16606,
-      "bytes": 4352225,
-      "sha256": "27adc18171198f507edb2e6fae5b7c692e27b6244198c111847ad89a04bc0119"
+      "ceps": 19322,
+      "bytes": 8517094,
+      "sha256": "cec6ef0e52e8903be355142b3668648859e2b939ae6e20136a66d92037ba4b8b"
     },
     {
       "arquivo": "ceps/18.json",
-      "ceps": 22661,
-      "bytes": 5931257,
-      "sha256": "6cd67034573a6794cf400bb6150423e481cc452409ccc61d484c5ea03f622977"
+      "ceps": 27500,
+      "bytes": 12509267,
+      "sha256": "f3f309b4bfd2c44ea60a7371e8e0013b193e4c7be55e76e464d0f8464709b48e"
     },
     {
       "arquivo": "ceps/19.json",
-      "ceps": 8448,
-      "bytes": 2241725,
-      "sha256": "a5b4550ff8b594004e107f3e8f792900b0cc66d96963d19ea39cda184b84af8b"
+      "ceps": 9890,
+      "bytes": 4460875,
+      "sha256": "e2f4a342616160beea132f6e512ad38964117a975e4d78bad50c86634d9e380b"
     },
     {
       "arquivo": "ceps/20.json",
-      "ceps": 3026,
-      "bytes": 775122,
-      "sha256": "f99fded1640612ac3350e222fafe2e040a4958d0ec4d1903e3e74fcec72d2277"
+      "ceps": 4376,
+      "bytes": 1977572,
+      "sha256": "cf5fdab5d7b295b2933c4b7f8bfd0c05a06222dde789a650c734d51a82964c1e"
     },
     {
       "arquivo": "ceps/21.json",
-      "ceps": 8185,
-      "bytes": 2093773,
-      "sha256": "93e7bc506fee9b5ccc9be44eb5360e3b51f77cf8e205958c9401a35880ac3cac"
+      "ceps": 10516,
+      "bytes": 4773520,
+      "sha256": "7fc23cb2a0531d72f7e4225600f5bd7865d2e85057370322e435cf06c753254e"
     },
     {
       "arquivo": "ceps/22.json",
-      "ceps": 3523,
-      "bytes": 910787,
-      "sha256": "ec52fd4183e605cf956d66117f5caf9a75b2c2c9dc8dbb42339edf8faf0fbeb3"
+      "ceps": 5123,
+      "bytes": 2328063,
+      "sha256": "05cf5cddc188eef8528ec22e26694df6b91e404d29c66df599aa693687719ad8"
     },
     {
       "arquivo": "ceps/23.json",
-      "ceps": 8741,
-      "bytes": 2240201,
-      "sha256": "ad8766815f586dbcd0dbe79494e308a51cf9b3efa9148a141c1e3ed0f062f413"
+      "ceps": 11785,
+      "bytes": 5404179,
+      "sha256": "aade0f2e2461eac5bbdc49518a5dc5a50e8ff9f2a37b640ec88cccdc48685115"
     },
     {
       "arquivo": "ceps/24.json",
-      "ceps": 11523,
-      "bytes": 2926493,
-      "sha256": "aea5c562b52a37c8b7c7d4a325cb61cdf001a0cbced93d4c5f69f63ae08f10e6"
+      "ceps": 15602,
+      "bytes": 7210368,
+      "sha256": "4e6704e10a5c8aa26b4d67e497fe130d86a77c8f09d73a478cb733fb7cf189fb"
     },
     {
       "arquivo": "ceps/25.json",
-      "ceps": 11902,
-      "bytes": 3045203,
-      "sha256": "922b02652f50df8d61f810cb3bee29d1892fea3c8892f8f0c05582a1e4400c0e"
+      "ceps": 16814,
+      "bytes": 7755233,
+      "sha256": "eae774725b3db43d8f2461844e51f3ca3a8860dd410936c768d34aaebf5ac895"
     },
     {
       "arquivo": "ceps/26.json",
-      "ceps": 12198,
-      "bytes": 3081874,
-      "sha256": "dc2fafe27cd9d33755f3d27b219270dd632b978b28426f308049ba67cca9dd3c"
+      "ceps": 15182,
+      "bytes": 6922204,
+      "sha256": "78c7e3a883211edcf9c0ebfc3c63a2997db3fc14e09c8f4332c98eb0078e0d2e"
     },
     {
       "arquivo": "ceps/27.json",
-      "ceps": 7036,
-      "bytes": 1803599,
-      "sha256": "9aef6d6164da98995989fa73b38071b9415e28e98c611c41d7f6ea455f1917fe"
+      "ceps": 9842,
+      "bytes": 4477231,
+      "sha256": "b9cfa5ed38913936b381310e5f4e4568a4bf31394f1e1d3b601e409189839fa4"
     },
     {
       "arquivo": "ceps/28.json",
-      "ceps": 11285,
-      "bytes": 2896902,
-      "sha256": "e57f124e808e40c7ab2d854a81cd4d4a4c2f12a81807fd8f3755e33cbb3df6d2"
+      "ceps": 13905,
+      "bytes": 6268571,
+      "sha256": "bf7595d15bc82e31ad2b9269504cf474b89da4a76da6d0b6d1e2df4992d5a216"
     },
     {
       "arquivo": "ceps/29.json",
-      "ceps": 23076,
-      "bytes": 5865948,
-      "sha256": "753cf36764f7d9c5154070b0d570b0061989b23c2b1e9ba03aee63a696694a5c"
+      "ceps": 32712,
+      "bytes": 14639034,
+      "sha256": "063a31b89e93bef857d0db657386f079642d4cadea15c8357dd2a71a6591a1ad"
     },
     {
       "arquivo": "ceps/30.json",
-      "ceps": 6708,
-      "bytes": 1732642,
-      "sha256": "6999b98c30b75e1a0244b7739b396517d3fdb1bd401e2b5fd3c0e27bf1d73baa"
+      "ceps": 8257,
+      "bytes": 3826711,
+      "sha256": "a66963a59df4ce721b711d42569cc360ce6e563e8e1561ab3ee05bc296387d3f"
     },
     {
       "arquivo": "ceps/31.json",
-      "ceps": 6501,
-      "bytes": 1684088,
-      "sha256": "2bdd583d50b919844a17b4ffef3f746c11e1ed488b3749b73907bb9829da0ebf"
+      "ceps": 7488,
+      "bytes": 3429212,
+      "sha256": "a79004c8eea837609a084be2880aaa9ffce876014776db872b6dea2e1816c167"
     },
     {
       "arquivo": "ceps/32.json",
-      "ceps": 9212,
-      "bytes": 2310310,
-      "sha256": "42bb8367470f5568e8f589c93178fea28a576d793ee8f2adcb9f7213de3c96f9"
+      "ceps": 12275,
+      "bytes": 5573752,
+      "sha256": "563f0587c7514aa188ddb101a626ee7dbc2970cf1b6c19ce332f13c92dc2ccb0"
     },
     {
       "arquivo": "ceps/33.json",
-      "ceps": 6626,
-      "bytes": 1710936,
-      "sha256": "f5e862c49d989b2070be3d2c73ff6e27753a3c07c51df4d1c2d868bbe0838501"
+      "ceps": 8048,
+      "bytes": 3660316,
+      "sha256": "c385f046eba06a09fab70bc18da1d0004df1e45b309fbb1882f084d2b4010e99"
     },
     {
       "arquivo": "ceps/34.json",
-      "ceps": 2262,
-      "bytes": 570207,
-      "sha256": "b9574aa0b7c99b3743179b06f0e94426740189a4020b853e5822060f04141b22"
+      "ceps": 3186,
+      "bytes": 1434077,
+      "sha256": "0bd64cadd9e42bb915fb7dc22a6f6f3d9c908585f1c80cfc9a95de21af39ad52"
     },
     {
       "arquivo": "ceps/35.json",
-      "ceps": 20593,
-      "bytes": 5258645,
-      "sha256": "8ff7d1587e4d2395c05d3566963a8526a294882ccca1b044d4431453fd6ddc2e"
+      "ceps": 26288,
+      "bytes": 11751195,
+      "sha256": "70de0c9e9a41a622fd0ab2aaa759e9d95156d266dfc38a06e91d64a3fd3467bd"
     },
     {
       "arquivo": "ceps/36.json",
-      "ceps": 13897,
-      "bytes": 3592800,
-      "sha256": "ece554008f78780cd7904e6958ff598677f709eebd92477a2ca97328f81cff7c"
+      "ceps": 16832,
+      "bytes": 7624174,
+      "sha256": "5a404e07d443cb55289f94fdca10ae14db8b98cb6268b3cc71720aba330029d5"
     },
     {
       "arquivo": "ceps/37.json",
-      "ceps": 14227,
-      "bytes": 3698282,
-      "sha256": "9e9a245dd67ce793d7bf5ab850ff7d905eb760d5f2e189e4742510f8e28de8d9"
+      "ceps": 17354,
+      "bytes": 7906833,
+      "sha256": "fe9230546142f21f5f58dc6f47b96098ba1b9d49ae977be8bcb2fe7bd9bbdde8"
     },
     {
       "arquivo": "ceps/38.json",
-      "ceps": 16622,
-      "bytes": 4276518,
-      "sha256": "9d53c7edc8efb3d2a50c5e7c695cea02c15107e3b4ce605b18ac32ce23c7a56f"
+      "ceps": 20572,
+      "bytes": 9423688,
+      "sha256": "8cad515a5bd60e6b4a71ab929ecac276bb5e186e763179730164c2b611b80bc5"
     },
     {
       "arquivo": "ceps/39.json",
-      "ceps": 5856,
-      "bytes": 1498039,
-      "sha256": "682b6fc5635e7d4792d26468d85e8249f955113b1f970c581606ccf591fca069"
+      "ceps": 8144,
+      "bytes": 3670998,
+      "sha256": "2f39ee24029077fd061b181dbf90961ae84972cbe24cfd317ae5fc1b1c1ed915"
     },
     {
       "arquivo": "ceps/40.json",
-      "ceps": 8422,
-      "bytes": 2138937,
-      "sha256": "cb5266fa3eb075ade5e3ee3a8c73c371dec0c38f8103864910fa14144fee2754"
+      "ceps": 11976,
+      "bytes": 5378019,
+      "sha256": "a4eaeab2b46596a005037c0659dd716d375c8f0bc196f25a691d0cfacbe83e4c"
     },
     {
       "arquivo": "ceps/41.json",
-      "ceps": 10466,
-      "bytes": 2657642,
-      "sha256": "5810bc3a466eee6056bc0ea6a1603725410a401a0b96fd03bc580dc3a7b92f87"
+      "ceps": 14937,
+      "bytes": 6752585,
+      "sha256": "a1deb0b3b669968009a8a922b59b66075fd54b6008b00191f0388f6d49ed7068"
     },
     {
       "arquivo": "ceps/42.json",
-      "ceps": 3238,
-      "bytes": 816835,
-      "sha256": "ec539ab64d24f79065035d4fdbb23d0d5bedb771ca7b55cbdf5592025891f9a7"
+      "ceps": 5253,
+      "bytes": 2399425,
+      "sha256": "f82bfec2cf3a90d4589f84824d8046d9721765d7f2e0f2675f6e2cd88482940b"
     },
     {
       "arquivo": "ceps/43.json",
-      "ceps": 249,
-      "bytes": 60807,
-      "sha256": "5aa8e985bf054d19cea2eb78c01f37b9098e85caa9d3e71f0ca4420d26e56ec8"
+      "ceps": 314,
+      "bytes": 138415,
+      "sha256": "2584c458d6cfc029df2f0fa5740ba3a1cd8d8506cb2768b0de9dde5319c4383d"
     },
     {
       "arquivo": "ceps/44.json",
-      "ceps": 6290,
-      "bytes": 1612111,
-      "sha256": "129791355dfb0ad248d758359c25fbf7dcbb0e5fc3df45088d744fb848550575"
+      "ceps": 8464,
+      "bytes": 3800848,
+      "sha256": "488c1b6f89bdec98bd91ce1a156c721f967dd01fdf8ff4560435cc7ec7702a64"
     },
     {
       "arquivo": "ceps/45.json",
-      "ceps": 9982,
-      "bytes": 2534597,
-      "sha256": "b849d0d48c236c8b7d843a42a5ba34a6b2b05abf686e55d3a4540b068a830815"
+      "ceps": 13778,
+      "bytes": 6235156,
+      "sha256": "1d443280ac45bc9652707a2068b1b805539ea8a24a5e02d48a26f49cdba0ee04"
     },
     {
       "arquivo": "ceps/46.json",
-      "ceps": 1147,
-      "bytes": 290245,
-      "sha256": "6081ea8711e643607de0a6a07f0be6815b97b01456b28212eb631b276f080eb9"
+      "ceps": 1304,
+      "bytes": 533305,
+      "sha256": "e048c0a060081415dd833e5b54f7408f750cc1027a770687ff3b04bc97982472"
     },
     {
       "arquivo": "ceps/47.json",
-      "ceps": 2807,
-      "bytes": 720870,
-      "sha256": "2a504e07f5511b34d48dd65faf6334a898e984f0ec075c05d3f73d0d8d25e0e8"
+      "ceps": 3360,
+      "bytes": 1466458,
+      "sha256": "3dc82bc0cd7ccf60c6fe264e3b41dab6a1de1501b2356b602a063437b54ea3fa"
     },
     {
       "arquivo": "ceps/48.json",
-      "ceps": 2870,
-      "bytes": 720052,
-      "sha256": "381e577bd0cf03e36402611686923fdefe639c4530b84b4629c3bae870ef2f1e"
+      "ceps": 4455,
+      "bytes": 1965210,
+      "sha256": "f4df8786645cae5d15f770abc8fbe31b6b26131720702e13ed4145188de65d41"
     },
     {
       "arquivo": "ceps/49.json",
-      "ceps": 5953,
-      "bytes": 1524603,
-      "sha256": "816a8d0bcdc361832158bc0c78ea95392ebc7e202ec3bd7b7ff273f8c57121c0"
+      "ceps": 7677,
+      "bytes": 3421379,
+      "sha256": "cc39ed5f2630f6c9735ae535214c43a810f1f358be258fd977d82089dd541888"
     },
     {
       "arquivo": "ceps/50.json",
-      "ceps": 3790,
-      "bytes": 938676,
-      "sha256": "9acfff2760fb782887f3a79d5409347f7083765047aab5b432a44f54e6d409f8"
+      "ceps": 5043,
+      "bytes": 2221412,
+      "sha256": "e5527bb2b324b372eb27690793e1fc62b407c1962863e3c25077555fb7aa56b5"
     },
     {
       "arquivo": "ceps/51.json",
-      "ceps": 2034,
-      "bytes": 502029,
-      "sha256": "c378ffcd61d2e0ea293c9382c836d2683522086afdc80a2a1adef265aa4549a0"
+      "ceps": 2881,
+      "bytes": 1262644,
+      "sha256": "685a8391e906c74779514ee3332bcc2f757eacecd098e81e1a30abb7c6270771"
     },
     {
       "arquivo": "ceps/52.json",
-      "ceps": 3426,
-      "bytes": 859957,
-      "sha256": "b5e922de891600e55650c70c1bd18131cc24531c4ff4504bc75ae74cf0ba101c"
+      "ceps": 4702,
+      "bytes": 2101717,
+      "sha256": "84947d4ddf28492a6cbf02a7b0d594e42869a036538af8344013b8244643744f"
     },
     {
       "arquivo": "ceps/53.json",
-      "ceps": 6010,
-      "bytes": 1510053,
-      "sha256": "c010036e96679cd33b72c494573c1081be0c811114fedc96eee46e4a2cbb387d"
+      "ceps": 9379,
+      "bytes": 4254785,
+      "sha256": "c0e4d8b593f24e7d5507d19925f2812b0fdbfb71026a66d3db7af4823f210196"
     },
     {
       "arquivo": "ceps/54.json",
-      "ceps": 6910,
-      "bytes": 1828044,
-      "sha256": "d6058bb4591ca8d754977341fbb792a6b007b181be836e532232dafd23d56a67"
+      "ceps": 12589,
+      "bytes": 5816214,
+      "sha256": "f9c1c0623fd6295d0b82e8593339d532481d50881d2f530ba1064d14407fef65"
     },
     {
       "arquivo": "ceps/55.json",
-      "ceps": 7243,
-      "bytes": 1866528,
-      "sha256": "1ff750e65679b47dc87ed68e57f72b85a62dda9bc80600ce8bcc90dbd525c671"
+      "ceps": 11090,
+      "bytes": 5079253,
+      "sha256": "e30bad69e019d31c1fa50a6264dd5400380851bb694d0a5c0376f87cc0c473a2"
     },
     {
       "arquivo": "ceps/56.json",
-      "ceps": 3413,
-      "bytes": 865409,
-      "sha256": "ecad3181cc9d05e03a0968604496b03d928f20191add4e23e622a89ac526ba7b"
+      "ceps": 5515,
+      "bytes": 2510396,
+      "sha256": "35f926af22ff594bd7d9fd91962fb5b31470805a6b5b2b78a1ca239eed1a35a1"
     },
     {
       "arquivo": "ceps/57.json",
-      "ceps": 8417,
-      "bytes": 2161178,
-      "sha256": "c84411465415e27a45ec4c0405b420d2bdf88324a9c241192d1a161b4f4aab90"
+      "ceps": 11793,
+      "bytes": 5349388,
+      "sha256": "791eb7cedfe5112fa252422e205f47a87bbffa731fba2d712aae734e393c5ca5"
     },
     {
       "arquivo": "ceps/58.json",
-      "ceps": 11673,
-      "bytes": 3034309,
-      "sha256": "7eaf8ad217f9bc93576a50e6c21f118bb5daf7751fbc1596d69f5316bdb1bbd3"
+      "ceps": 14508,
+      "bytes": 6639081,
+      "sha256": "9247c48ea6ba6234956f3a1fdcd2e6d3496b497b34d3632d159bc2f8c5db2631"
     },
     {
       "arquivo": "ceps/59.json",
-      "ceps": 12434,
-      "bytes": 3158699,
-      "sha256": "da8a7fc6d21bbbc9e77016882c5a735c188098143da43ca09899f00872e1f76a"
+      "ceps": 16260,
+      "bytes": 7258124,
+      "sha256": "e4c1e7569f107cfa1840e1b353a2885512fe78c9ca9055159f2aed55ba59abe1"
     },
     {
       "arquivo": "ceps/60.json",
-      "ceps": 10526,
-      "bytes": 2653652,
-      "sha256": "906fa136c18d1dc882e6789ec33268689a1b3a57a6189f08f1aae824937bb940"
+      "ceps": 16313,
+      "bytes": 7346534,
+      "sha256": "ba2c3358f82c005d55445319d89097f7b0279197667ab08a440585761ab3c8bb"
     },
     {
       "arquivo": "ceps/61.json",
-      "ceps": 4810,
-      "bytes": 1200743,
-      "sha256": "0b4591739b47959c70a83d50291283e7930edcedea77149d6a402fb96de8657f"
+      "ceps": 6389,
+      "bytes": 2872401,
+      "sha256": "52e520cf24493699e4da205dbca2e0303deb7e19e1fc6007ea336dbbe7dfbfd6"
     },
     {
       "arquivo": "ceps/62.json",
-      "ceps": 3349,
-      "bytes": 847388,
-      "sha256": "f2d756dabcd1a6dcd3775a38826e928d41962a4d38ef2b6fb723f6226dd193ad"
+      "ceps": 5046,
+      "bytes": 2264817,
+      "sha256": "b97db36714e0f4b308ec136d3ca3917d50ba120b3d3d963cf0c5dbdb8f74829a"
     },
     {
       "arquivo": "ceps/63.json",
-      "ceps": 4880,
-      "bytes": 1253141,
-      "sha256": "6c1dbd4968e819c4ca4ba0d3ec5dcb6870b45aa8c8d5d210a0d93d01c4a3b9bc"
+      "ceps": 6509,
+      "bytes": 2956510,
+      "sha256": "45326b1dde55597f6d75fffe3a6e1c521c3e40d312c7430d7e36c86d01b5e27d"
     },
     {
       "arquivo": "ceps/64.json",
-      "ceps": 7553,
-      "bytes": 1884534,
-      "sha256": "07de177d63f50a0904bf29c50d987e05077d727fbe26e1d790efac0c12b0029c"
+      "ceps": 13457,
+      "bytes": 6040920,
+      "sha256": "cbbefac7a746fbc5c80d07f6df6ce977a7dd021e08490386f2337c818651815a"
     },
     {
       "arquivo": "ceps/65.json",
-      "ceps": 10789,
-      "bytes": 2695064,
-      "sha256": "d3eecc625cffe4b81fc470aeaad86885e41c94d6918756671da287c89884b594"
+      "ceps": 15716,
+      "bytes": 7058855,
+      "sha256": "f14255b59459a1927188c561c1aeb35c735dec625ac58761f439311c05b71395"
     },
     {
       "arquivo": "ceps/66.json",
-      "ceps": 5521,
-      "bytes": 1356569,
-      "sha256": "fa66fdcb230b7bd81867113035b157a6503a312ea0a5ff1c42538be75fecaa4e"
+      "ceps": 10661,
+      "bytes": 4775350,
+      "sha256": "4d66953a2a83308a05730d33f6c265f7e3c11d8d54bf8cfde38ef763f79db8e6"
     },
     {
       "arquivo": "ceps/67.json",
-      "ceps": 2535,
-      "bytes": 630968,
-      "sha256": "bf7671c592df5232f999e333afd0b103bd656ac4f2ce6f4c3c5d549bba4e4421"
+      "ceps": 4769,
+      "bytes": 2156358,
+      "sha256": "33ef55d394cb2ef4686223bc26bc17e5e678c340a17616eb83cf671f71d824d8"
     },
     {
       "arquivo": "ceps/68.json",
-      "ceps": 10072,
-      "bytes": 2523397,
-      "sha256": "b4ed4225a99fc799358a362f31904c36f04a468307a45b3e25a14f9c08610679"
+      "ceps": 13658,
+      "bytes": 6194382,
+      "sha256": "06cba7c7e1d03bc45f9c7b58599d5d7799771fe35534e91893a478e6e71c10d4"
     },
     {
       "arquivo": "ceps/69.json",
-      "ceps": 15449,
-      "bytes": 3847853,
-      "sha256": "cc2517bb0ed0d8eb9da83a44b4b2e131d42df3297a251df293789fb0fb705288"
+      "ceps": 23327,
+      "bytes": 10417841,
+      "sha256": "10a1cfc44b4c83f8b1d45edb8f475730bdf7cee12dda44f7d331d9604cdb6df3"
     },
     {
       "arquivo": "ceps/70.json",
-      "ceps": 4945,
-      "bytes": 1256442,
-      "sha256": "9dc7d453749c98752123ec0ca70521b9cdb982fedaad70277de91c6d2f3ec7c6"
+      "ceps": 6533,
+      "bytes": 3127249,
+      "sha256": "5c1e575f28d11452c353d2dd16c9c4e2d89ef4a6a2fead65f3f95257dac671fb"
     },
     {
       "arquivo": "ceps/71.json",
-      "ceps": 7191,
-      "bytes": 1882238,
-      "sha256": "2c3eec6ff139360048f3cb9dc429811787c6f2b7075c4b7b670b69c9a9657a37"
+      "ceps": 10099,
+      "bytes": 5061969,
+      "sha256": "69a7d67eb9816caf6f86d92115c0a2a6c0d0b29a744a97e77d54cd2644eb2132"
     },
     {
       "arquivo": "ceps/72.json",
-      "ceps": 18738,
-      "bytes": 4860255,
-      "sha256": "ff9dd823e4aafa84d8dad81c1c2e28da3fd7ef1e1b4ff84b0c208032e943b5f4"
+      "ceps": 29674,
+      "bytes": 14431402,
+      "sha256": "173558a04c83bd73cf86c7b0f55a2712ec8c9f55289135153fa46a6c6dde1f05"
     },
     {
       "arquivo": "ceps/73.json",
-      "ceps": 5304,
-      "bytes": 1378585,
-      "sha256": "8b1a8b4fef5923968c14cce6faa6b9581734100f4748d573aa603d1aa07cb85d"
+      "ceps": 7108,
+      "bytes": 3441272,
+      "sha256": "93d834c07086c268d2957bd671f287b494fb6696fe4f596dca6be30ce5bdc0ad"
     },
     {
       "arquivo": "ceps/74.json",
-      "ceps": 17816,
-      "bytes": 4537452,
-      "sha256": "a4af96dfefe551ef2ef5288d1147203102f414107d740db87e0fd8bdaa5530d3"
+      "ceps": 24006,
+      "bytes": 11127249,
+      "sha256": "39e11ecb7c5642edc18f6f50212f588a8fcf98d2a2e4a684e7f8d3f3bd904992"
     },
     {
       "arquivo": "ceps/75.json",
-      "ceps": 18725,
-      "bytes": 4759156,
-      "sha256": "3aaa26c12ebdf2cfd0549f58ee13e81cdc463bf751227b3c0f76ac8a79cf8329"
+      "ceps": 25119,
+      "bytes": 11492628,
+      "sha256": "439d3d6786c5ff64133ef7fc4d9ddc142a0e99fefac3f29a32d2158cc8bc63fd"
     },
     {
       "arquivo": "ceps/76.json",
-      "ceps": 10687,
-      "bytes": 2694318,
-      "sha256": "57c108d2c98e0f8e5b02798290a033567f9fadabf8e87ca15be267704bfc9720"
+      "ceps": 13575,
+      "bytes": 6256783,
+      "sha256": "6d32795e020551ad6e79ce6d58c4fce9b386ae1b708b500c681af7033bb2c887"
     },
     {
       "arquivo": "ceps/77.json",
-      "ceps": 6407,
-      "bytes": 1620376,
-      "sha256": "474522abee694d55a43abc9814a8967b3ce6e9102c2a2a1d2773200479404b62"
+      "ceps": 8748,
+      "bytes": 4077362,
+      "sha256": "011d8ff7c870a6ceb428c2063cef44f33f0b1141d31f3af07cfabd0a80ba32f7"
     },
     {
       "arquivo": "ceps/78.json",
-      "ceps": 17481,
-      "bytes": 4454195,
-      "sha256": "fbdd97f24b7d265579e6345498571bdd0d19341d408d4c08ddbe3e4b1776285e"
+      "ceps": 22814,
+      "bytes": 10526434,
+      "sha256": "2e09c69465386d2d61e45c9282ffe67911c123f60280a081b97cc53e163879bb"
     },
     {
       "arquivo": "ceps/79.json",
-      "ceps": 11941,
-      "bytes": 3082808,
-      "sha256": "d1661f4c9ed54d28e375a9575679d807f0ed32930ae2114d38d4f8100a66a398"
+      "ceps": 15159,
+      "bytes": 7049056,
+      "sha256": "631c9e32fc1aaf907a8b7c8ad57db6b5138703d09c906bcba49d1ce1baa4c406"
     },
     {
       "arquivo": "ceps/80.json",
-      "ceps": 1408,
-      "bytes": 358324,
-      "sha256": "8bc4f41c07f40d686653d1a9342789bb8394eb2f6b0e5a545d1c605fa01df7c9"
+      "ceps": 1829,
+      "bytes": 825669,
+      "sha256": "85361d8484b6ca7bd18bde57b63970ab14e04125d090ff6d8fd2bb81407a2d35"
     },
     {
       "arquivo": "ceps/81.json",
-      "ceps": 5087,
-      "bytes": 1326736,
-      "sha256": "44d7a7ddd3c243a20e715fafdbe87db19d8450d29961c7a31266ba07cb245b11"
+      "ceps": 5622,
+      "bytes": 2597090,
+      "sha256": "126184851af5db4446d0d8664dd37fd331d06a162bffc6cdc64377ddfae3ae03"
     },
     {
       "arquivo": "ceps/82.json",
-      "ceps": 3001,
-      "bytes": 765966,
-      "sha256": "7ddf3584b595d499a60f4dbb823f3d7202edc8224a6a200dff4a262e624a05cf"
+      "ceps": 3374,
+      "bytes": 1513913,
+      "sha256": "421c93c74245bba75e0eb9cbb307568fc047852b31a7710d53cb75e3b0c19115"
     },
     {
       "arquivo": "ceps/83.json",
-      "ceps": 9764,
-      "bytes": 2523534,
-      "sha256": "f4308b8f6e9ee578caf66ae883e9abf58f3e5fef5ec3ad497b198a1c52200704"
+      "ceps": 11633,
+      "bytes": 5294235,
+      "sha256": "8d5c4f8cf0b356da156f0c69329e16f1e9def3afd861adc2618c10ba98266009"
     },
     {
       "arquivo": "ceps/84.json",
-      "ceps": 5707,
-      "bytes": 1466658,
-      "sha256": "1e7d0c3fa8e092e56004e01421061623c6f5708f7fc21c9952a171277f4fa6cb"
+      "ceps": 6804,
+      "bytes": 3118711,
+      "sha256": "c9494dce828ab53017f82dd8c8aaf09846aad024a7c8fbb3bbe561deaf2ba9cc"
     },
     {
       "arquivo": "ceps/85.json",
-      "ceps": 10166,
-      "bytes": 2597851,
-      "sha256": "000593997cae6b9ab5235938eb2474d0b0a30dc216b92050a0fdda57d9d8bc2a"
+      "ceps": 12031,
+      "bytes": 5379056,
+      "sha256": "fde7456e8fe48aaa6d71130026a4008995fbffe023f026bac962cda4cd35c011"
     },
     {
       "arquivo": "ceps/86.json",
-      "ceps": 8931,
-      "bytes": 2285829,
-      "sha256": "937236e7c1cf9ff43bc78a9932561ed41aaf8c25e1ccd9ab00f874907c69d310"
+      "ceps": 10708,
+      "bytes": 4993828,
+      "sha256": "5f13ee6af5a66c57d8169457f71ae0088c01c59497a5a71b48b61511251addc5"
     },
     {
       "arquivo": "ceps/87.json",
-      "ceps": 8073,
-      "bytes": 2081711,
-      "sha256": "9cfda6d5331bec91207457fa94283420123b4a9700cbeafc6c9a9f71cbdd45da"
+      "ceps": 10675,
+      "bytes": 4991350,
+      "sha256": "c31b543ca8ac9001f465805c2d59ae4bb6d3c07507b75062fad6ff32acff40b1"
     },
     {
       "arquivo": "ceps/88.json",
-      "ceps": 19881,
-      "bytes": 5094444,
-      "sha256": "99b1e11e2412526b3fa388cd6ff193c177cebc8e9ecc9faf8bfc552cf8a10c55"
+      "ceps": 23881,
+      "bytes": 10916150,
+      "sha256": "8883bb7b8928adbb5481c1193c6e189142fcb929c2080bbe29e70fa43af2c4eb"
     },
     {
       "arquivo": "ceps/89.json",
-      "ceps": 20564,
-      "bytes": 5220739,
-      "sha256": "2eebd6f8e2089c10b23e28a83cadfef34ad81b6bfca2b22d221e3a84e86670f3"
+      "ceps": 23943,
+      "bytes": 10808368,
+      "sha256": "2d3e2f888190db07d1fa843ddb371703a5f93208e3772f99f27205c41040519e"
     },
     {
       "arquivo": "ceps/90.json",
-      "ceps": 1767,
-      "bytes": 452599,
-      "sha256": "13496e582fbdbdcf02ec6d57cd9e3af20bc8c840166d94bcf933e65bf9a1a35f"
+      "ceps": 2690,
+      "bytes": 1218728,
+      "sha256": "16622421ec1310f44ae49b05c3ba9c5faacc859cc82ed28d6f8c559138eace3f"
     },
     {
       "arquivo": "ceps/91.json",
-      "ceps": 4789,
-      "bytes": 1229343,
-      "sha256": "277a83f05ff0ecbeb60eb2127975f0e075ead60e8560cfa4bb46aafc072741be"
+      "ceps": 7102,
+      "bytes": 3276724,
+      "sha256": "98a93291ceee8d0da2e9fa2c270f3696b575c7593131e811538fcce5b1fb65f1"
     },
     {
       "arquivo": "ceps/92.json",
-      "ceps": 3182,
-      "bytes": 791480,
-      "sha256": "f67a000d1b6201ef26968416801044a9f5e8baca1f8389eb65e1d204755ea644"
+      "ceps": 3914,
+      "bytes": 1733386,
+      "sha256": "b94332532ec17de65642092bb6132812bf2186938ae164b955ed46e25e71d6e8"
     },
     {
       "arquivo": "ceps/93.json",
-      "ceps": 6926,
-      "bytes": 1764474,
-      "sha256": "497f6aa0f24803a44732db4fe166b2eea075e7155200ebeda27560e3ffbd72f0"
+      "ceps": 8315,
+      "bytes": 3769679,
+      "sha256": "c0e13dcb903a85490bbb240ab9cfc87cda449df4e07f7d2aa6e1e7356ecee8b2"
     },
     {
       "arquivo": "ceps/94.json",
-      "ceps": 5807,
-      "bytes": 1460126,
-      "sha256": "422c2821846a12d61b44e7d4af20f4bb8b844e039977845a0de5834009fefb20"
+      "ceps": 7174,
+      "bytes": 3254975,
+      "sha256": "e3b652bac800836638b889897f403c5ac96a5bbd028d0d2e48015b030c332fbc"
     },
     {
       "arquivo": "ceps/95.json",
-      "ceps": 9699,
-      "bytes": 2469778,
-      "sha256": "833dba5419c6a936360772fb052ba5723cd8f84b45bba87b89955387f19fac2d"
+      "ceps": 11418,
+      "bytes": 5129779,
+      "sha256": "eddd7dd3717ed02334cd6ecf58e487ab7f569b09a9da489b11ea824d371891ed"
     },
     {
       "arquivo": "ceps/96.json",
-      "ceps": 5930,
-      "bytes": 1510470,
-      "sha256": "b5f6e1416cd946a3adf78670d25c5403a5a9305c6c823a975199d2c5003dce0f"
+      "ceps": 7331,
+      "bytes": 3407227,
+      "sha256": "162501ff45012a9103b9e50b97d684977baaf8f2887818337529e6d1c48945fd"
     },
     {
       "arquivo": "ceps/97.json",
-      "ceps": 5302,
-      "bytes": 1376789,
-      "sha256": "00e16eb1c06f999e87c7244069e141be19f4e843b251f733b31c3b6fd6202ccb"
+      "ceps": 6493,
+      "bytes": 3073090,
+      "sha256": "163413771665c5929a6f3bfa1eba93bd1c9d03afa992e43922702571621bd781"
     },
     {
       "arquivo": "ceps/98.json",
-      "ceps": 2501,
-      "bytes": 633716,
-      "sha256": "ff8a0ddc28a4fcd7ce39268c74ed33f90d13510242c35d55d871f406d768c324"
+      "ceps": 3215,
+      "bytes": 1465536,
+      "sha256": "9f401199e50959cee347fcb5d44c89ff4cf5aa2c81d26ddb7f507b8c559cdddf"
     },
     {
       "arquivo": "ceps/99.json",
-      "ceps": 2868,
-      "bytes": 727854,
-      "sha256": "38e7e29e6d833b10795783e88bbb061715edf7a25951edc40aa394d04e94dbc9"
+      "ceps": 3617,
+      "bytes": 1650034,
+      "sha256": "23e12adc4b9f47c52e1541f2e588a350268ae0aef353672ab4445a2147af31b2"
     }
   ],
   "grade": {
-    "arquivos": 632,
-    "bytes": 32243379
+    "arquivos": 633,
+    "bytes": 42113413
   },
   "ceps_por_uf": {
-    "AC": 3036,
-    "AL": 8417,
-    "AM": 10062,
-    "AP": 2162,
-    "BA": 45472,
-    "CE": 23565,
-    "DF": 26292,
-    "ES": 23076,
-    "GO": 48117,
-    "MA": 10790,
-    "MG": 102503,
-    "MS": 11941,
-    "MT": 17481,
-    "PA": 15966,
-    "PB": 11672,
-    "PE": 32825,
-    "PI": 7552,
-    "PR": 52137,
-    "RJ": 77419,
-    "RN": 12436,
-    "RO": 8997,
-    "RR": 2351,
-    "RS": 48771,
-    "SC": 40445,
-    "SE": 5952,
-    "SP": 275655,
-    "TO": 6407
+    "AC": 4156,
+    "AL": 11793,
+    "AM": 16523,
+    "AP": 2857,
+    "BA": 63842,
+    "CE": 34257,
+    "DF": 36604,
+    "ES": 32712,
+    "GO": 67989,
+    "MA": 15717,
+    "MG": 128443,
+    "MS": 15159,
+    "MT": 22814,
+    "PA": 26231,
+    "PB": 14507,
+    "PE": 51198,
+    "PI": 13456,
+    "PR": 62676,
+    "RJ": 103145,
+    "RN": 16262,
+    "RO": 11521,
+    "RR": 2648,
+    "RS": 61269,
+    "SC": 47824,
+    "SE": 7676,
+    "SP": 337482,
+    "TO": 8748
   },
   "ceps_por_nv_geo": {
     "1": 929975,
@@ -866,6 +866,24 @@
         "ceps": 931499
       },
       "nomes_de_municipio": "API de localidades do IBGE (servicodados.ibge.gov.br), baixada no momento da geração. O código de 7 dígitos vem do próprio CNEFE."
+    },
+    {
+      "id": "cepaberto",
+      "titulo": "CEP Aberto",
+      "autor": "Mucelli Rezende Oliveira, Eduardo",
+      "ano": 2014,
+      "url": "https://www.cepaberto.com/",
+      "dump": "cepaberto_2026-11-17.tar",
+      "gerado_em": "2026-11-17",
+      "sha256": "218a1659a21cf3fe11b12314ec8289fba59323009847b821a886c563d9f7ec16",
+      "bytes": 13056000,
+      "ceps": 1138912,
+      "cidades": null,
+      "licenca": "Open Database License (ODbL) 1.0",
+      "licenca_url": "https://opendatacommons.org/licenses/odbl/1.0/",
+      "atribuicao": "CEP Aberto (https://www.cepaberto.com/), Mucelli Rezende Oliveira, Eduardo, 2014. ODbL 1.0.",
+      "observacao": "O dump oficial não traz latitude nem longitude. O script não baixa o arquivo: o site exige sessão autenticada. O tar usado está em sources/cepaberto/.",
+      "obtencao": "Download manual, autenticado, do dump gerado em 2026-11-17. O tar versionado é esse arquivo."
     }
   ],
   "fontes_avaliadas_nao_usadas": [
@@ -880,13 +898,6 @@
       "data": "2024-02-02",
       "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Coordenadas_enderecos/UF/",
       "motivo": "Divulgação anterior só de coordenadas, substituída pelo microdado CSV de maio/junho de 2024, que traz CEP, endereço e NV_GEO_COORD."
-    },
-    {
-      "id": "cep-aberto",
-      "data_consulta": "2026-11-18",
-      "url": "https://www.cepaberto.com/",
-      "licenca": "Open Database License (ODbL) 1.0, atribuição e compartilhamento pela mesma licença.",
-      "motivo": "Cobre cerca de 1,14 milhão de CEPs geolocalizados de forma colaborativa e segue recebendo atualizações pontuais, mas o dump completo exige cadastro e sessão autenticada. Não foi baixado neste ambiente. A licença permitiria redistribuir; a fonte oficial com coordenada de censo foi preferida."
     },
     {
       "id": "geonames-postal-BR",
@@ -912,11 +923,15 @@
     }
   ],
   "limitacoes": [
-    "A base contém os CEPs que aparecem em pelo menos um endereço do CNEFE do Censo 2022, não o universo teórico de 100 milhões de combinações nem necessariamente todo o DNE dos Correios (caixas postais, grandes usuários e CEPs criados depois da coleta podem faltar).",
+    "Entram os CEPs do CNEFE 2022 e os do dump do CEP Aberto de 2026-11-17. Isso ainda não é o universo teórico de 8 dígitos nem necessariamente todo o DNE dos Correios.",
     "A coordenada é o centroide dos endereços recenseados, não a fachada de um número específico nem o centro geométrico do polígono do CEP.",
     "CEPs de município inteiro ou de área rural grande ficam com coordenada puxada para onde há mais endereços e, em geral, sem um logradouro único.",
     "NV_GEO_COORD 4, 5 ou 6 indica precisão de quadra, localidade ou setor censitário, não de endereço.",
-    "n_enderecos conta registros do microdado (uma linha por espécie no endereço). O mesmo código de endereço pode repetir quando há mais de uma espécie; a repetição é pequena e não muda o centroide quando a coordenada é a mesma."
+    "n_enderecos conta registros do microdado (uma linha por espécie no endereço). O mesmo código de endereço pode repetir quando há mais de uma espécie; a repetição é pequena e não muda o centroide quando a coordenada é a mesma.",
+    "A base combinada está sob ODbL 1.0 por causa do CEP Aberto. Atribuição e compartilhamento pela mesma licença são obrigatórios.",
+    "Coordenada com precisao logradouro, bairro ou municipio não é a posição do CEP: é o centroide de outros CEPs do CNEFE com o mesmo nome de rua, de bairro ou do município.",
+    "O dump do CEP Aberto não tem geolocalização. CEP sem município reconhecido no IBGE fica sem coordenada.",
+    "divergencias guarda o texto do CNEFE quando o nome postal do CEP Aberto foi o escolhido, ou o nome de localidade do CEP Aberto quando a cidade oficial do IBGE foi mantida."
   ],
   "conferencia_agregados_por_cep": {
     "ceps_agregados_oficiais": 931499,
@@ -924,5 +939,44 @@
     "ceps_so_no_microdado": 0,
     "exemplos_so_nos_agregados": [],
     "exemplos_so_no_microdado": []
+  },
+  "licenca_base": "A base combinada em data/ é uma base derivada sob a Open Database License (ODbL) 1.0, porque inclui o CEP Aberto. Obrigações: atribuir o CEP Aberto (Eduardo Mucelli Rezende Oliveira, 2014, https://www.cepaberto.com/) e o IBGE (CNEFE, Censo 2022), e compartilhar pela mesma licença qualquer base derivada que seja usada publicamente. O código em cepdb/ continua sob MIT e não cobre os dados. Os microdados do IBGE permanecem de domínio público com citação da fonte; a presença do CEP Aberto é o que submete o conjunto a ODbL.",
+  "cepaberto": {
+    "linhas": 1138912,
+    "ceps_nos_dois": 852902,
+    "ceps_so_cnefe": 78597,
+    "ceps_so_cepaberto": 286010,
+    "preencheu_logradouro": 22763,
+    "preencheu_bairro": 25666,
+    "preencheu_complemento": 128690,
+    "preencheu_cidade": 0,
+    "divergencia_logradouro": 166306,
+    "divergencia_bairro": 314482,
+    "divergencia_cidade": 936,
+    "casamento_municipio": {
+      "exato": 1137692,
+      "nenhum": 1212,
+      "parentese": 8
+    },
+    "novos_por_precisao": {
+      "bairro": 180735,
+      "logradouro": 21506,
+      "municipio": 83457,
+      "sem_coordenada": 312
+    },
+    "metodo_coordenada_herdada": "Para CEP ausente do CNEFE, a coordenada é o centroide ponderado por n_enderecos dos CEPs do CNEFE no mesmo município: primeiro os de mesmo logradouro e mesmo bairro (precisao logradouro; um número final no nome do CEP Aberto é ignorado só na comparação), depois os de mesmo bairro (precisao bairro), depois todos os do município (precisao municipio). Sem município IBGE reconhecido, lat/lng ficam nulos. CEP presente no CNEFE mantém a coordenada do censo (precisao cnefe_cep).",
+    "regra_cidade": "O nome de município vindo do CNEFE não é substituído quando o CEP Aberto traz outra localidade. A divergência fica em divergencias.cidade. Nome vazio é preenchido. Localidade no formato 'Distrito (Município)' herda o código IBGE do município entre parênteses."
+  },
+  "ceps_por_precisao": {
+    "bairro": 180735,
+    "cnefe_cep": 931499,
+    "logradouro": 21506,
+    "municipio": 83457,
+    "null": 312
+  },
+  "ceps_por_fonte": {
+    "cepaberto": 286010,
+    "ibge-cnefe-censo2022": 78597,
+    "ibge-cnefe-censo2022+cepaberto": 852902
   }
 }

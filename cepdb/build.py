@@ -400,10 +400,9 @@ def fontes_nao_usadas() -> list[dict]:
             "url": "https://www.cepaberto.com/",
             "licenca": "Open Database License (ODbL) 1.0, atribuição e compartilhamento pela mesma licença.",
             "motivo": (
-                "Cobre cerca de 1,14 milhão de CEPs geolocalizados de forma colaborativa e segue recebendo "
-                "atualizações pontuais, mas o dump completo exige cadastro e sessão autenticada. "
-                "Não foi baixado neste ambiente. A licença permitiria redistribuir; a fonte oficial com "
-                "coordenada de censo foi preferida."
+                "O dump postal não traz latitude/longitude. Quando o tar autenticado está em "
+                "sources/cepaberto/, python -m cepdb.cepaberto incorpora esses CEPs à base. "
+                "Esta entrada só permanece se essa etapa não rodou."
             ),
         },
         {
@@ -578,6 +577,10 @@ def main(argv: list[str] | None = None) -> int:
         f"base em {args.out_dir}: {meta['total_ceps']:,} CEPs, "
         f"{meta['pct_com_coordenadas']}% com coordenada"
     )
+    if not args.only:
+        from cepdb.cepaberto import enrich_if_available
+
+        enrich_if_available(args.out_dir)
     return 0
 
 
