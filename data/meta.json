@@ -1,0 +1,928 @@
+{
+  "gerado_em": "2026-11-18T01:08:10Z",
+  "gerador": "cepdb 1.0.0",
+  "total_ceps": 931499,
+  "ceps_com_coordenadas": 931499,
+  "ceps_sem_coordenadas": 0,
+  "pct_com_coordenadas": 100.0,
+  "ceps_sem_logradouro": 32314,
+  "ceps_sem_bairro": 34055,
+  "ceps_em_multiplos_municipios": 398,
+  "ceps_sem_municipio_conhecido": 0,
+  "registros_lidos": 111102875,
+  "registros_cep_invalido": 0,
+  "registros_linha_curta": 0,
+  "registros_coordenada_rejeitada": 0,
+  "registros_com_coordenada_valida": 111102875,
+  "metodo_coordenada": "Centroide igual à média aritmética de latitude e de longitude dos registros CNEFE do CEP, usando somente o melhor nível de geocodificação disponível (menor NV_GEO_COORD). Níveis: 1 endereço original, 2 endereço modificado (apartamentos no mesmo número), 3 coordenada estimada, 4 face de quadra, 5 localidade, 6 setor censitário. Não é a mediana: guardar todos os pontos para a mediana de ~100 milhões de endereços não cabe no gerador.",
+  "regra_logradouro": "Modal do logradouro (tipo + título + nome) entre os endereços com nome. Fica nulo quando o modal não alcança 50% desses endereços, ou quando o CNEFE só tem 'SEM DENOMINACAO'. n_logradouros conta os nomes distintos.",
+  "regra_bairro": "Modal de DSC_LOCALIDADE quando essa localidade cobre pelo menos 50% dos endereços do CEP e não é só o nome do município. O CNEFE não tem um campo separado de bairro; abaixo de 50% o campo fica nulo para não rotular o CEP com uma localidade minoritária.",
+  "grade_graus": 1,
+  "particoes": [
+    {
+      "arquivo": "ceps/01.json",
+      "ceps": 1698,
+      "bytes": 431195,
+      "sha256": "82c29b1b9676d96053346f8ddc808aa0437b9970c1488d8608c8751ec62f8d66"
+    },
+    {
+      "arquivo": "ceps/02.json",
+      "ceps": 8645,
+      "bytes": 2216356,
+      "sha256": "72317d275a71f17edcea922189ecbf7b799a34e317b2847477f182f6fdc47b57"
+    },
+    {
+      "arquivo": "ceps/03.json",
+      "ceps": 8853,
+      "bytes": 2266246,
+      "sha256": "5b8550102a4615cccd063787af5901aecae5b8068358bfef3aac1db00f466463"
+    },
+    {
+      "arquivo": "ceps/04.json",
+      "ceps": 12283,
+      "bytes": 3151464,
+      "sha256": "38e3ee36b7d7159cf1cd460fe5308bf8a119e7ee147ddea9da63628cf9f1813a"
+    },
+    {
+      "arquivo": "ceps/05.json",
+      "ceps": 8182,
+      "bytes": 2107854,
+      "sha256": "0bf882da2d37025edcae7b8f53dbfccbbcb46cd2ceebe6bf3c045b1b122830b5"
+    },
+    {
+      "arquivo": "ceps/06.json",
+      "ceps": 15730,
+      "bytes": 4057573,
+      "sha256": "ea7332aa48c822ac2d3cc05ad676b0178f53700257cfdd3fa4cc6fa5d8ee823b"
+    },
+    {
+      "arquivo": "ceps/07.json",
+      "ceps": 11632,
+      "bytes": 2957870,
+      "sha256": "1505af2fa703e1759e2a87bd9715247d32b44b65cfa712b49fa59e00e09c9145"
+    },
+    {
+      "arquivo": "ceps/08.json",
+      "ceps": 15206,
+      "bytes": 3944838,
+      "sha256": "4236753f1354c1e968d2c00543cb7472a4088a401fbdf5194c89e3fb3626771b"
+    },
+    {
+      "arquivo": "ceps/09.json",
+      "ceps": 12795,
+      "bytes": 3305723,
+      "sha256": "806895f0e865b3ea5e6ac0b25ce4e9fd2e92ace1ab336e42b9171a0633645f97"
+    },
+    {
+      "arquivo": "ceps/11.json",
+      "ceps": 12650,
+      "bytes": 3230056,
+      "sha256": "8fc5f8c1ef864b2e0b6519390a6306ad96fa2eae89c7ec408449038d8d90b241"
+    },
+    {
+      "arquivo": "ceps/12.json",
+      "ceps": 19282,
+      "bytes": 5101433,
+      "sha256": "db63200e8cd11bbf7d8e2af7e7a6fb7454d272930a22b8b055c98802fd1b5394"
+    },
+    {
+      "arquivo": "ceps/13.json",
+      "ceps": 60814,
+      "bytes": 15873834,
+      "sha256": "739cc6ca9062930569acdf992605f4d31458c221b889e99f9112c386851b7005"
+    },
+    {
+      "arquivo": "ceps/14.json",
+      "ceps": 18056,
+      "bytes": 4767107,
+      "sha256": "7db2d6f704edf99e7bddb039f3880489c095cd42667201b4f4a6a9b4039c06b2"
+    },
+    {
+      "arquivo": "ceps/15.json",
+      "ceps": 14979,
+      "bytes": 3983235,
+      "sha256": "875260fcc5daae2b565680fac2d3afea466984e3f5a6b39b10ba6340a0a6ea05"
+    },
+    {
+      "arquivo": "ceps/16.json",
+      "ceps": 7134,
+      "bytes": 1859038,
+      "sha256": "fb0164b79172c1ba625b1c08430be08238354185c1bb240300f34083890f8dc3"
+    },
+    {
+      "arquivo": "ceps/17.json",
+      "ceps": 16606,
+      "bytes": 4352225,
+      "sha256": "27adc18171198f507edb2e6fae5b7c692e27b6244198c111847ad89a04bc0119"
+    },
+    {
+      "arquivo": "ceps/18.json",
+      "ceps": 22661,
+      "bytes": 5931257,
+      "sha256": "6cd67034573a6794cf400bb6150423e481cc452409ccc61d484c5ea03f622977"
+    },
+    {
+      "arquivo": "ceps/19.json",
+      "ceps": 8448,
+      "bytes": 2241725,
+      "sha256": "a5b4550ff8b594004e107f3e8f792900b0cc66d96963d19ea39cda184b84af8b"
+    },
+    {
+      "arquivo": "ceps/20.json",
+      "ceps": 3026,
+      "bytes": 775122,
+      "sha256": "f99fded1640612ac3350e222fafe2e040a4958d0ec4d1903e3e74fcec72d2277"
+    },
+    {
+      "arquivo": "ceps/21.json",
+      "ceps": 8185,
+      "bytes": 2093773,
+      "sha256": "93e7bc506fee9b5ccc9be44eb5360e3b51f77cf8e205958c9401a35880ac3cac"
+    },
+    {
+      "arquivo": "ceps/22.json",
+      "ceps": 3523,
+      "bytes": 910787,
+      "sha256": "ec52fd4183e605cf956d66117f5caf9a75b2c2c9dc8dbb42339edf8faf0fbeb3"
+    },
+    {
+      "arquivo": "ceps/23.json",
+      "ceps": 8741,
+      "bytes": 2240201,
+      "sha256": "ad8766815f586dbcd0dbe79494e308a51cf9b3efa9148a141c1e3ed0f062f413"
+    },
+    {
+      "arquivo": "ceps/24.json",
+      "ceps": 11523,
+      "bytes": 2926493,
+      "sha256": "aea5c562b52a37c8b7c7d4a325cb61cdf001a0cbced93d4c5f69f63ae08f10e6"
+    },
+    {
+      "arquivo": "ceps/25.json",
+      "ceps": 11902,
+      "bytes": 3045203,
+      "sha256": "922b02652f50df8d61f810cb3bee29d1892fea3c8892f8f0c05582a1e4400c0e"
+    },
+    {
+      "arquivo": "ceps/26.json",
+      "ceps": 12198,
+      "bytes": 3081874,
+      "sha256": "dc2fafe27cd9d33755f3d27b219270dd632b978b28426f308049ba67cca9dd3c"
+    },
+    {
+      "arquivo": "ceps/27.json",
+      "ceps": 7036,
+      "bytes": 1803599,
+      "sha256": "9aef6d6164da98995989fa73b38071b9415e28e98c611c41d7f6ea455f1917fe"
+    },
+    {
+      "arquivo": "ceps/28.json",
+      "ceps": 11285,
+      "bytes": 2896902,
+      "sha256": "e57f124e808e40c7ab2d854a81cd4d4a4c2f12a81807fd8f3755e33cbb3df6d2"
+    },
+    {
+      "arquivo": "ceps/29.json",
+      "ceps": 23076,
+      "bytes": 5865948,
+      "sha256": "753cf36764f7d9c5154070b0d570b0061989b23c2b1e9ba03aee63a696694a5c"
+    },
+    {
+      "arquivo": "ceps/30.json",
+      "ceps": 6708,
+      "bytes": 1732642,
+      "sha256": "6999b98c30b75e1a0244b7739b396517d3fdb1bd401e2b5fd3c0e27bf1d73baa"
+    },
+    {
+      "arquivo": "ceps/31.json",
+      "ceps": 6501,
+      "bytes": 1684088,
+      "sha256": "2bdd583d50b919844a17b4ffef3f746c11e1ed488b3749b73907bb9829da0ebf"
+    },
+    {
+      "arquivo": "ceps/32.json",
+      "ceps": 9212,
+      "bytes": 2310310,
+      "sha256": "42bb8367470f5568e8f589c93178fea28a576d793ee8f2adcb9f7213de3c96f9"
+    },
+    {
+      "arquivo": "ceps/33.json",
+      "ceps": 6626,
+      "bytes": 1710936,
+      "sha256": "f5e862c49d989b2070be3d2c73ff6e27753a3c07c51df4d1c2d868bbe0838501"
+    },
+    {
+      "arquivo": "ceps/34.json",
+      "ceps": 2262,
+      "bytes": 570207,
+      "sha256": "b9574aa0b7c99b3743179b06f0e94426740189a4020b853e5822060f04141b22"
+    },
+    {
+      "arquivo": "ceps/35.json",
+      "ceps": 20593,
+      "bytes": 5258645,
+      "sha256": "8ff7d1587e4d2395c05d3566963a8526a294882ccca1b044d4431453fd6ddc2e"
+    },
+    {
+      "arquivo": "ceps/36.json",
+      "ceps": 13897,
+      "bytes": 3592800,
+      "sha256": "ece554008f78780cd7904e6958ff598677f709eebd92477a2ca97328f81cff7c"
+    },
+    {
+      "arquivo": "ceps/37.json",
+      "ceps": 14227,
+      "bytes": 3698282,
+      "sha256": "9e9a245dd67ce793d7bf5ab850ff7d905eb760d5f2e189e4742510f8e28de8d9"
+    },
+    {
+      "arquivo": "ceps/38.json",
+      "ceps": 16622,
+      "bytes": 4276518,
+      "sha256": "9d53c7edc8efb3d2a50c5e7c695cea02c15107e3b4ce605b18ac32ce23c7a56f"
+    },
+    {
+      "arquivo": "ceps/39.json",
+      "ceps": 5856,
+      "bytes": 1498039,
+      "sha256": "682b6fc5635e7d4792d26468d85e8249f955113b1f970c581606ccf591fca069"
+    },
+    {
+      "arquivo": "ceps/40.json",
+      "ceps": 8422,
+      "bytes": 2138937,
+      "sha256": "cb5266fa3eb075ade5e3ee3a8c73c371dec0c38f8103864910fa14144fee2754"
+    },
+    {
+      "arquivo": "ceps/41.json",
+      "ceps": 10466,
+      "bytes": 2657642,
+      "sha256": "5810bc3a466eee6056bc0ea6a1603725410a401a0b96fd03bc580dc3a7b92f87"
+    },
+    {
+      "arquivo": "ceps/42.json",
+      "ceps": 3238,
+      "bytes": 816835,
+      "sha256": "ec539ab64d24f79065035d4fdbb23d0d5bedb771ca7b55cbdf5592025891f9a7"
+    },
+    {
+      "arquivo": "ceps/43.json",
+      "ceps": 249,
+      "bytes": 60807,
+      "sha256": "5aa8e985bf054d19cea2eb78c01f37b9098e85caa9d3e71f0ca4420d26e56ec8"
+    },
+    {
+      "arquivo": "ceps/44.json",
+      "ceps": 6290,
+      "bytes": 1612111,
+      "sha256": "129791355dfb0ad248d758359c25fbf7dcbb0e5fc3df45088d744fb848550575"
+    },
+    {
+      "arquivo": "ceps/45.json",
+      "ceps": 9982,
+      "bytes": 2534597,
+      "sha256": "b849d0d48c236c8b7d843a42a5ba34a6b2b05abf686e55d3a4540b068a830815"
+    },
+    {
+      "arquivo": "ceps/46.json",
+      "ceps": 1147,
+      "bytes": 290245,
+      "sha256": "6081ea8711e643607de0a6a07f0be6815b97b01456b28212eb631b276f080eb9"
+    },
+    {
+      "arquivo": "ceps/47.json",
+      "ceps": 2807,
+      "bytes": 720870,
+      "sha256": "2a504e07f5511b34d48dd65faf6334a898e984f0ec075c05d3f73d0d8d25e0e8"
+    },
+    {
+      "arquivo": "ceps/48.json",
+      "ceps": 2870,
+      "bytes": 720052,
+      "sha256": "381e577bd0cf03e36402611686923fdefe639c4530b84b4629c3bae870ef2f1e"
+    },
+    {
+      "arquivo": "ceps/49.json",
+      "ceps": 5953,
+      "bytes": 1524603,
+      "sha256": "816a8d0bcdc361832158bc0c78ea95392ebc7e202ec3bd7b7ff273f8c57121c0"
+    },
+    {
+      "arquivo": "ceps/50.json",
+      "ceps": 3790,
+      "bytes": 938676,
+      "sha256": "9acfff2760fb782887f3a79d5409347f7083765047aab5b432a44f54e6d409f8"
+    },
+    {
+      "arquivo": "ceps/51.json",
+      "ceps": 2034,
+      "bytes": 502029,
+      "sha256": "c378ffcd61d2e0ea293c9382c836d2683522086afdc80a2a1adef265aa4549a0"
+    },
+    {
+      "arquivo": "ceps/52.json",
+      "ceps": 3426,
+      "bytes": 859957,
+      "sha256": "b5e922de891600e55650c70c1bd18131cc24531c4ff4504bc75ae74cf0ba101c"
+    },
+    {
+      "arquivo": "ceps/53.json",
+      "ceps": 6010,
+      "bytes": 1510053,
+      "sha256": "c010036e96679cd33b72c494573c1081be0c811114fedc96eee46e4a2cbb387d"
+    },
+    {
+      "arquivo": "ceps/54.json",
+      "ceps": 6910,
+      "bytes": 1828044,
+      "sha256": "d6058bb4591ca8d754977341fbb792a6b007b181be836e532232dafd23d56a67"
+    },
+    {
+      "arquivo": "ceps/55.json",
+      "ceps": 7243,
+      "bytes": 1866528,
+      "sha256": "1ff750e65679b47dc87ed68e57f72b85a62dda9bc80600ce8bcc90dbd525c671"
+    },
+    {
+      "arquivo": "ceps/56.json",
+      "ceps": 3413,
+      "bytes": 865409,
+      "sha256": "ecad3181cc9d05e03a0968604496b03d928f20191add4e23e622a89ac526ba7b"
+    },
+    {
+      "arquivo": "ceps/57.json",
+      "ceps": 8417,
+      "bytes": 2161178,
+      "sha256": "c84411465415e27a45ec4c0405b420d2bdf88324a9c241192d1a161b4f4aab90"
+    },
+    {
+      "arquivo": "ceps/58.json",
+      "ceps": 11673,
+      "bytes": 3034309,
+      "sha256": "7eaf8ad217f9bc93576a50e6c21f118bb5daf7751fbc1596d69f5316bdb1bbd3"
+    },
+    {
+      "arquivo": "ceps/59.json",
+      "ceps": 12434,
+      "bytes": 3158699,
+      "sha256": "da8a7fc6d21bbbc9e77016882c5a735c188098143da43ca09899f00872e1f76a"
+    },
+    {
+      "arquivo": "ceps/60.json",
+      "ceps": 10526,
+      "bytes": 2653652,
+      "sha256": "906fa136c18d1dc882e6789ec33268689a1b3a57a6189f08f1aae824937bb940"
+    },
+    {
+      "arquivo": "ceps/61.json",
+      "ceps": 4810,
+      "bytes": 1200743,
+      "sha256": "0b4591739b47959c70a83d50291283e7930edcedea77149d6a402fb96de8657f"
+    },
+    {
+      "arquivo": "ceps/62.json",
+      "ceps": 3349,
+      "bytes": 847388,
+      "sha256": "f2d756dabcd1a6dcd3775a38826e928d41962a4d38ef2b6fb723f6226dd193ad"
+    },
+    {
+      "arquivo": "ceps/63.json",
+      "ceps": 4880,
+      "bytes": 1253141,
+      "sha256": "6c1dbd4968e819c4ca4ba0d3ec5dcb6870b45aa8c8d5d210a0d93d01c4a3b9bc"
+    },
+    {
+      "arquivo": "ceps/64.json",
+      "ceps": 7553,
+      "bytes": 1884534,
+      "sha256": "07de177d63f50a0904bf29c50d987e05077d727fbe26e1d790efac0c12b0029c"
+    },
+    {
+      "arquivo": "ceps/65.json",
+      "ceps": 10789,
+      "bytes": 2695064,
+      "sha256": "d3eecc625cffe4b81fc470aeaad86885e41c94d6918756671da287c89884b594"
+    },
+    {
+      "arquivo": "ceps/66.json",
+      "ceps": 5521,
+      "bytes": 1356569,
+      "sha256": "fa66fdcb230b7bd81867113035b157a6503a312ea0a5ff1c42538be75fecaa4e"
+    },
+    {
+      "arquivo": "ceps/67.json",
+      "ceps": 2535,
+      "bytes": 630968,
+      "sha256": "bf7671c592df5232f999e333afd0b103bd656ac4f2ce6f4c3c5d549bba4e4421"
+    },
+    {
+      "arquivo": "ceps/68.json",
+      "ceps": 10072,
+      "bytes": 2523397,
+      "sha256": "b4ed4225a99fc799358a362f31904c36f04a468307a45b3e25a14f9c08610679"
+    },
+    {
+      "arquivo": "ceps/69.json",
+      "ceps": 15449,
+      "bytes": 3847853,
+      "sha256": "cc2517bb0ed0d8eb9da83a44b4b2e131d42df3297a251df293789fb0fb705288"
+    },
+    {
+      "arquivo": "ceps/70.json",
+      "ceps": 4945,
+      "bytes": 1256442,
+      "sha256": "9dc7d453749c98752123ec0ca70521b9cdb982fedaad70277de91c6d2f3ec7c6"
+    },
+    {
+      "arquivo": "ceps/71.json",
+      "ceps": 7191,
+      "bytes": 1882238,
+      "sha256": "2c3eec6ff139360048f3cb9dc429811787c6f2b7075c4b7b670b69c9a9657a37"
+    },
+    {
+      "arquivo": "ceps/72.json",
+      "ceps": 18738,
+      "bytes": 4860255,
+      "sha256": "ff9dd823e4aafa84d8dad81c1c2e28da3fd7ef1e1b4ff84b0c208032e943b5f4"
+    },
+    {
+      "arquivo": "ceps/73.json",
+      "ceps": 5304,
+      "bytes": 1378585,
+      "sha256": "8b1a8b4fef5923968c14cce6faa6b9581734100f4748d573aa603d1aa07cb85d"
+    },
+    {
+      "arquivo": "ceps/74.json",
+      "ceps": 17816,
+      "bytes": 4537452,
+      "sha256": "a4af96dfefe551ef2ef5288d1147203102f414107d740db87e0fd8bdaa5530d3"
+    },
+    {
+      "arquivo": "ceps/75.json",
+      "ceps": 18725,
+      "bytes": 4759156,
+      "sha256": "3aaa26c12ebdf2cfd0549f58ee13e81cdc463bf751227b3c0f76ac8a79cf8329"
+    },
+    {
+      "arquivo": "ceps/76.json",
+      "ceps": 10687,
+      "bytes": 2694318,
+      "sha256": "57c108d2c98e0f8e5b02798290a033567f9fadabf8e87ca15be267704bfc9720"
+    },
+    {
+      "arquivo": "ceps/77.json",
+      "ceps": 6407,
+      "bytes": 1620376,
+      "sha256": "474522abee694d55a43abc9814a8967b3ce6e9102c2a2a1d2773200479404b62"
+    },
+    {
+      "arquivo": "ceps/78.json",
+      "ceps": 17481,
+      "bytes": 4454195,
+      "sha256": "fbdd97f24b7d265579e6345498571bdd0d19341d408d4c08ddbe3e4b1776285e"
+    },
+    {
+      "arquivo": "ceps/79.json",
+      "ceps": 11941,
+      "bytes": 3082808,
+      "sha256": "d1661f4c9ed54d28e375a9575679d807f0ed32930ae2114d38d4f8100a66a398"
+    },
+    {
+      "arquivo": "ceps/80.json",
+      "ceps": 1408,
+      "bytes": 358324,
+      "sha256": "8bc4f41c07f40d686653d1a9342789bb8394eb2f6b0e5a545d1c605fa01df7c9"
+    },
+    {
+      "arquivo": "ceps/81.json",
+      "ceps": 5087,
+      "bytes": 1326736,
+      "sha256": "44d7a7ddd3c243a20e715fafdbe87db19d8450d29961c7a31266ba07cb245b11"
+    },
+    {
+      "arquivo": "ceps/82.json",
+      "ceps": 3001,
+      "bytes": 765966,
+      "sha256": "7ddf3584b595d499a60f4dbb823f3d7202edc8224a6a200dff4a262e624a05cf"
+    },
+    {
+      "arquivo": "ceps/83.json",
+      "ceps": 9764,
+      "bytes": 2523534,
+      "sha256": "f4308b8f6e9ee578caf66ae883e9abf58f3e5fef5ec3ad497b198a1c52200704"
+    },
+    {
+      "arquivo": "ceps/84.json",
+      "ceps": 5707,
+      "bytes": 1466658,
+      "sha256": "1e7d0c3fa8e092e56004e01421061623c6f5708f7fc21c9952a171277f4fa6cb"
+    },
+    {
+      "arquivo": "ceps/85.json",
+      "ceps": 10166,
+      "bytes": 2597851,
+      "sha256": "000593997cae6b9ab5235938eb2474d0b0a30dc216b92050a0fdda57d9d8bc2a"
+    },
+    {
+      "arquivo": "ceps/86.json",
+      "ceps": 8931,
+      "bytes": 2285829,
+      "sha256": "937236e7c1cf9ff43bc78a9932561ed41aaf8c25e1ccd9ab00f874907c69d310"
+    },
+    {
+      "arquivo": "ceps/87.json",
+      "ceps": 8073,
+      "bytes": 2081711,
+      "sha256": "9cfda6d5331bec91207457fa94283420123b4a9700cbeafc6c9a9f71cbdd45da"
+    },
+    {
+      "arquivo": "ceps/88.json",
+      "ceps": 19881,
+      "bytes": 5094444,
+      "sha256": "99b1e11e2412526b3fa388cd6ff193c177cebc8e9ecc9faf8bfc552cf8a10c55"
+    },
+    {
+      "arquivo": "ceps/89.json",
+      "ceps": 20564,
+      "bytes": 5220739,
+      "sha256": "2eebd6f8e2089c10b23e28a83cadfef34ad81b6bfca2b22d221e3a84e86670f3"
+    },
+    {
+      "arquivo": "ceps/90.json",
+      "ceps": 1767,
+      "bytes": 452599,
+      "sha256": "13496e582fbdbdcf02ec6d57cd9e3af20bc8c840166d94bcf933e65bf9a1a35f"
+    },
+    {
+      "arquivo": "ceps/91.json",
+      "ceps": 4789,
+      "bytes": 1229343,
+      "sha256": "277a83f05ff0ecbeb60eb2127975f0e075ead60e8560cfa4bb46aafc072741be"
+    },
+    {
+      "arquivo": "ceps/92.json",
+      "ceps": 3182,
+      "bytes": 791480,
+      "sha256": "f67a000d1b6201ef26968416801044a9f5e8baca1f8389eb65e1d204755ea644"
+    },
+    {
+      "arquivo": "ceps/93.json",
+      "ceps": 6926,
+      "bytes": 1764474,
+      "sha256": "497f6aa0f24803a44732db4fe166b2eea075e7155200ebeda27560e3ffbd72f0"
+    },
+    {
+      "arquivo": "ceps/94.json",
+      "ceps": 5807,
+      "bytes": 1460126,
+      "sha256": "422c2821846a12d61b44e7d4af20f4bb8b844e039977845a0de5834009fefb20"
+    },
+    {
+      "arquivo": "ceps/95.json",
+      "ceps": 9699,
+      "bytes": 2469778,
+      "sha256": "833dba5419c6a936360772fb052ba5723cd8f84b45bba87b89955387f19fac2d"
+    },
+    {
+      "arquivo": "ceps/96.json",
+      "ceps": 5930,
+      "bytes": 1510470,
+      "sha256": "b5f6e1416cd946a3adf78670d25c5403a5a9305c6c823a975199d2c5003dce0f"
+    },
+    {
+      "arquivo": "ceps/97.json",
+      "ceps": 5302,
+      "bytes": 1376789,
+      "sha256": "00e16eb1c06f999e87c7244069e141be19f4e843b251f733b31c3b6fd6202ccb"
+    },
+    {
+      "arquivo": "ceps/98.json",
+      "ceps": 2501,
+      "bytes": 633716,
+      "sha256": "ff8a0ddc28a4fcd7ce39268c74ed33f90d13510242c35d55d871f406d768c324"
+    },
+    {
+      "arquivo": "ceps/99.json",
+      "ceps": 2868,
+      "bytes": 727854,
+      "sha256": "38e7e29e6d833b10795783e88bbb061715edf7a25951edc40aa394d04e94dbc9"
+    }
+  ],
+  "grade": {
+    "arquivos": 632,
+    "bytes": 32243379
+  },
+  "ceps_por_uf": {
+    "AC": 3036,
+    "AL": 8417,
+    "AM": 10062,
+    "AP": 2162,
+    "BA": 45472,
+    "CE": 23565,
+    "DF": 26292,
+    "ES": 23076,
+    "GO": 48117,
+    "MA": 10790,
+    "MG": 102503,
+    "MS": 11941,
+    "MT": 17481,
+    "PA": 15966,
+    "PB": 11672,
+    "PE": 32825,
+    "PI": 7552,
+    "PR": 52137,
+    "RJ": 77419,
+    "RN": 12436,
+    "RO": 8997,
+    "RR": 2351,
+    "RS": 48771,
+    "SC": 40445,
+    "SE": 5952,
+    "SP": 275655,
+    "TO": 6407
+  },
+  "ceps_por_nv_geo": {
+    "1": 929975,
+    "2": 760,
+    "3": 295,
+    "4": 447,
+    "6": 22
+  },
+  "cobertura_por_uf_codigo": {
+    "11": "RO",
+    "12": "AC",
+    "13": "AM",
+    "14": "RR",
+    "15": "PA",
+    "16": "AP",
+    "17": "TO",
+    "21": "MA",
+    "22": "PI",
+    "23": "CE",
+    "24": "RN",
+    "25": "PB",
+    "26": "PE",
+    "27": "AL",
+    "28": "SE",
+    "29": "BA",
+    "31": "MG",
+    "32": "ES",
+    "33": "RJ",
+    "35": "SP",
+    "41": "PR",
+    "42": "SC",
+    "43": "RS",
+    "50": "MS",
+    "51": "MT",
+    "52": "GO",
+    "53": "DF"
+  },
+  "fontes": [
+    {
+      "id": "ibge-cnefe-censo2022",
+      "titulo": "Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE) — Censo Demográfico 2022",
+      "publicador": "Instituto Brasileiro de Geografia e Estatística (IBGE)",
+      "coleta": "2022",
+      "publicacao_microdados_csv": "2024-05-21",
+      "atualizacao_arquivo_rondonia": "2024-06-12",
+      "publicacao_agregados_por_cep": "2024-06-14",
+      "nota_metodologica_coordenadas": "2024-02-02 (Notas metodológicas n. 01/2024)",
+      "nota_metodologica_cnefe": "2024-06-14 (Notas metodológicas n. 04/2024)",
+      "url_microdados_uf": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/",
+      "url_agregados": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Agregados_por_CEP/Agregados_por_CEP_CNEFE_Censo_2022.zip",
+      "url_municipios": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+      "url_documentacao": "https://www.ibge.gov.br/estatisticas/sociais/populacao/38734-cadastro-nacional-de-enderecos-para-fins-estatisticos.html",
+      "licenca": "Dados abertos de domínio público, com citação obrigatória da fonte. O IBGE informou, em atendimento de 8 de janeiro de 2009 (protocolo 8171/2009), que os conteúdos do portal são de domínio público e que o uso em outros portais ou publicações está condicionado à citação da fonte. O FTP do CNEFE exibe a nota 'Todos os arquivos aqui disponíveis são públicos.' A divulgação segue a Política de Dados Abertos do Poder Executivo Federal (Decreto nº 8.777/2016). Esta base derivada exige a mesma atribuição ao IBGE.",
+      "citacao": "IBGE. Censo Demográfico 2022: Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE). Microdados por UF em CSV, divulgação de 21/05/2024 (Rondônia atualizada em 12/06/2024).",
+      "arquivos_uf": [
+        {
+          "arquivo": "11_RO.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/11_RO.zip",
+          "bytes": 16310880,
+          "last_modified": "Wed, 12 Jun 2024 11:44:21 GMT"
+        },
+        {
+          "arquivo": "12_AC.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/12_AC.zip",
+          "bytes": 7023748,
+          "last_modified": "Mon, 20 May 2024 22:50:04 GMT"
+        },
+        {
+          "arquivo": "13_AM.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/13_AM.zip",
+          "bytes": 29620766,
+          "last_modified": "Mon, 20 May 2024 22:50:06 GMT"
+        },
+        {
+          "arquivo": "14_RR.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/14_RR.zip",
+          "bytes": 4520527,
+          "last_modified": "Mon, 20 May 2024 22:50:04 GMT"
+        },
+        {
+          "arquivo": "15_PA.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/15_PA.zip",
+          "bytes": 103050645,
+          "last_modified": "Mon, 20 May 2024 22:50:12 GMT"
+        },
+        {
+          "arquivo": "16_AP.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/16_AP.zip",
+          "bytes": 5454312,
+          "last_modified": "Mon, 20 May 2024 22:50:07 GMT"
+        },
+        {
+          "arquivo": "17_TO.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/17_TO.zip",
+          "bytes": 15412488,
+          "last_modified": "Mon, 20 May 2024 22:50:08 GMT"
+        },
+        {
+          "arquivo": "21_MA.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/21_MA.zip",
+          "bytes": 77694765,
+          "last_modified": "Mon, 20 May 2024 22:50:13 GMT"
+        },
+        {
+          "arquivo": "22_PI.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/22_PI.zip",
+          "bytes": 34838556,
+          "last_modified": "Mon, 20 May 2024 22:50:15 GMT"
+        },
+        {
+          "arquivo": "23_CE.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/23_CE.zip",
+          "bytes": 138747815,
+          "last_modified": "Mon, 20 May 2024 22:50:21 GMT"
+        },
+        {
+          "arquivo": "24_RN.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/24_RN.zip",
+          "bytes": 34231013,
+          "last_modified": "Mon, 20 May 2024 22:50:16 GMT"
+        },
+        {
+          "arquivo": "25_PB.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/25_PB.zip",
+          "bytes": 40796565,
+          "last_modified": "Mon, 20 May 2024 22:50:19 GMT"
+        },
+        {
+          "arquivo": "26_PE.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/26_PE.zip",
+          "bytes": 151432961,
+          "last_modified": "Mon, 20 May 2024 22:50:26 GMT"
+        },
+        {
+          "arquivo": "27_AL.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/27_AL.zip",
+          "bytes": 29180557,
+          "last_modified": "Mon, 20 May 2024 22:50:23 GMT"
+        },
+        {
+          "arquivo": "28_SE.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/28_SE.zip",
+          "bytes": 20632480,
+          "last_modified": "Mon, 20 May 2024 22:50:25 GMT"
+        },
+        {
+          "arquivo": "29_BA.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/29_BA.zip",
+          "bytes": 398181853,
+          "last_modified": "Mon, 20 May 2024 22:50:47 GMT"
+        },
+        {
+          "arquivo": "31_MG.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/31_MG.zip",
+          "bytes": 537151309,
+          "last_modified": "Mon, 20 May 2024 22:50:48 GMT"
+        },
+        {
+          "arquivo": "32_ES.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/32_ES.zip",
+          "bytes": 41567902,
+          "last_modified": "Mon, 20 May 2024 22:50:49 GMT"
+        },
+        {
+          "arquivo": "33_RJ.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/33_RJ.zip",
+          "bytes": 338096849,
+          "last_modified": "Mon, 20 May 2024 22:51:02 GMT"
+        },
+        {
+          "arquivo": "35_SP.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/35_SP.zip",
+          "bytes": 1082015432,
+          "last_modified": "Mon, 20 May 2024 22:51:29 GMT"
+        },
+        {
+          "arquivo": "41_PR.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/41_PR.zip",
+          "bytes": 242066031,
+          "last_modified": "Mon, 20 May 2024 22:51:11 GMT"
+        },
+        {
+          "arquivo": "42_SC.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/42_SC.zip",
+          "bytes": 118607932,
+          "last_modified": "Mon, 20 May 2024 22:51:16 GMT"
+        },
+        {
+          "arquivo": "43_RS.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/43_RS.zip",
+          "bytes": 247249924,
+          "last_modified": "Mon, 20 May 2024 22:51:26 GMT"
+        },
+        {
+          "arquivo": "50_MS.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/50_MS.zip",
+          "bytes": 29787554,
+          "last_modified": "Mon, 20 May 2024 22:51:27 GMT"
+        },
+        {
+          "arquivo": "51_MT.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/51_MT.zip",
+          "bytes": 37772175,
+          "last_modified": "Mon, 20 May 2024 22:51:28 GMT"
+        },
+        {
+          "arquivo": "52_GO.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/52_GO.zip",
+          "bytes": 120818046,
+          "last_modified": "Mon, 20 May 2024 22:51:33 GMT"
+        },
+        {
+          "arquivo": "53_DF.zip",
+          "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Arquivos_CNEFE/CSV/UF/53_DF.zip",
+          "bytes": 19814349,
+          "last_modified": "Mon, 20 May 2024 22:51:30 GMT"
+        }
+      ],
+      "arquivo_agregados": {
+        "arquivo": "Agregados_por_CEP_CNEFE_Censo_2022.zip",
+        "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Agregados_por_CEP/Agregados_por_CEP_CNEFE_Censo_2022.zip",
+        "bytes": 8989018,
+        "last_modified": "Fri, 14 Jun 2024 13:00:01 GMT",
+        "ceps": 931499
+      },
+      "nomes_de_municipio": "API de localidades do IBGE (servicodados.ibge.gov.br), baixada no momento da geração. O código de 7 dígitos vem do próprio CNEFE."
+    }
+  ],
+  "fontes_avaliadas_nao_usadas": [
+    {
+      "id": "ibge-cnefe-agregados-por-cep",
+      "data": "2024-06-14",
+      "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Agregados_por_CEP/Agregados_por_CEP_CNEFE_Censo_2022.zip",
+      "motivo": "Publicação oficial de 931.499 CEPs com contagem de endereços por espécie, sem latitude/longitude. Usada só para conferir o conjunto de CEPs, não como geometria."
+    },
+    {
+      "id": "ibge-coordenadas-enderecos-2024-02",
+      "data": "2024-02-02",
+      "url": "https://ftp.ibge.gov.br/Cadastro_Nacional_de_Enderecos_para_Fins_Estatisticos/Censo_Demografico_2022/Coordenadas_enderecos/UF/",
+      "motivo": "Divulgação anterior só de coordenadas, substituída pelo microdado CSV de maio/junho de 2024, que traz CEP, endereço e NV_GEO_COORD."
+    },
+    {
+      "id": "cep-aberto",
+      "data_consulta": "2026-11-18",
+      "url": "https://www.cepaberto.com/",
+      "licenca": "Open Database License (ODbL) 1.0, atribuição e compartilhamento pela mesma licença.",
+      "motivo": "Cobre cerca de 1,14 milhão de CEPs geolocalizados de forma colaborativa e segue recebendo atualizações pontuais, mas o dump completo exige cadastro e sessão autenticada. Não foi baixado neste ambiente. A licença permitiria redistribuir; a fonte oficial com coordenada de censo foi preferida."
+    },
+    {
+      "id": "geonames-postal-BR",
+      "data": "2026-11-17",
+      "url": "https://download.geonames.org/export/zip/BR.zip",
+      "licenca": "Creative Commons Attribution 4.0 (CC BY 4.0).",
+      "motivo": "Arquivo BR.zip consultado em 2026-11-18 tem 5.525 registros, em geral um CEP por município (sufixo 000), com coordenada de localidade. Não cobre CEP de logradouro."
+    },
+    {
+      "id": "brasilapi",
+      "url": "https://brasilapi.com.br/",
+      "motivo": "API de consulta unitária, sem dump redistribuível. Não é fonte de carga."
+    },
+    {
+      "id": "correios-edne",
+      "url": "https://www.correios.com.br/",
+      "motivo": "O Diretório Nacional de Endereços dos Correios é produto da empresa, com licença própria, e não traz coordenada oficial aberta. Não foi copiado."
+    },
+    {
+      "id": "openaddresses-osm",
+      "licenca": "Predominantemente ODbL para dados derivados do OpenStreetMap.",
+      "motivo": "OpenAddresses e OpenStreetMap têm CEP e coordenada de forma incompleta e heterogênea. O CNEFE é mais completo para o endereço recenseado em 2022 e tem licença de dados abertos do IBGE."
+    }
+  ],
+  "limitacoes": [
+    "A base contém os CEPs que aparecem em pelo menos um endereço do CNEFE do Censo 2022, não o universo teórico de 100 milhões de combinações nem necessariamente todo o DNE dos Correios (caixas postais, grandes usuários e CEPs criados depois da coleta podem faltar).",
+    "A coordenada é o centroide dos endereços recenseados, não a fachada de um número específico nem o centro geométrico do polígono do CEP.",
+    "CEPs de município inteiro ou de área rural grande ficam com coordenada puxada para onde há mais endereços e, em geral, sem um logradouro único.",
+    "NV_GEO_COORD 4, 5 ou 6 indica precisão de quadra, localidade ou setor censitário, não de endereço.",
+    "n_enderecos conta registros do microdado (uma linha por espécie no endereço). O mesmo código de endereço pode repetir quando há mais de uma espécie; a repetição é pequena e não muda o centroide quando a coordenada é a mesma."
+  ],
+  "conferencia_agregados_por_cep": {
+    "ceps_agregados_oficiais": 931499,
+    "ceps_so_nos_agregados": 0,
+    "ceps_so_no_microdado": 0,
+    "exemplos_so_nos_agregados": [],
+    "exemplos_so_no_microdado": []
+  }
+}

@@ -1,0 +1,13 @@
+[project]
+name = "cepdb"
+version = "1.0.0"
+description = "Base local de CEPs do Brasil com coordenadas, derivada do CNEFE/IBGE (Censo 2022)"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "cepdb" }]
+
+[project.scripts]
+cepdb = "cepdb.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cepdb*"]
